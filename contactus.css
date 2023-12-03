@@ -1,0 +1,106 @@
+p
+{
+    text-align: center;
+    font-size: 100px;
+    color:var(--white);   
+}
+a{
+    text-align: center;
+    font-size: 50px;
+    color:var(--white);  
+}
+:root{
+    --red:#e74c3c;
+    --black:#333;
+    --white:#fff;
+    --light-bg:#f5f5f5;
+    --light-color:#666;
+    --border:.1rem solid var(--light-color);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+ }
+ 
+ *{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear; 
+ }
+ .contact{
+   padding-top: 100px;
+ }
+ 
+ html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7.5rem;
+ }
+ 
+ body{
+    background:url(https://media.istockphoto.com/id/1473906544/photo/close-up-on-delicious-round-pizza-with-prosciutto-mozzarella-and-basil-leaves-on-top-served.jpg?s=2048x2048&w=is&k=20&c=YBfhj4wG_JU-SpIbWB5HjW8-m2jwaOdsHQ3sTCdkocg=) no-repeat;
+    
+    overflow-x: hidden;
+ }
+ 
+ section{
+    padding:2rem;
+    margin:0 auto;
+    max-width: 1200px;
+ }
+ 
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ 
+ .footer .box-container .box{
+    padding:2rem;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+ }
+ 
+ .footer .box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2rem;
+    color:var(--white);
+    background-color: var(--red);
+    border-radius: 50%;
+    margin-bottom: .5rem;
+ }
+ 
+ .footer .box-container .box h3{
+    margin:1rem 0;
+    color:var(--black);
+    text-transform: capitalize;
+    font-size: 2rem;
+ }
+ 
+ .footer .box-container .box p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color:var(--light-color);
+ }
+ 
+ .footer .credit{
+    text-align: center;
+    margin-top: 3rem;
+    padding:1rem 0;
+    padding-top: 3rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color:var(--black);
+    /* padding-bottom: 8rem; */
+ }
+ 
+ .footer .credit span{
+    color: var(--red);
+ }
